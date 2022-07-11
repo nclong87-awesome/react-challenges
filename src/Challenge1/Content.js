@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import RenderCounter from '../commons/RenderCounter';
 
-const Content1 = (props) => {
+const Content = (props) => {
   return (
     <div style={props.style} className="content">
       <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
@@ -10,8 +10,8 @@ const Content1 = (props) => {
   )
 }
 
-Content1.propTypes = {
+Content.propTypes = {
   style: PropTypes.instanceOf(Object),
 }
 
-export default Content1;
+export default Content;

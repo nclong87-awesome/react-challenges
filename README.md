@@ -16,3 +16,4 @@ You will also see any lint errors in the console.
 
 
 npx http-server
+serve -s build

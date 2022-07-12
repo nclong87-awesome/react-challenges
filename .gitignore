@@ -8,6 +8,8 @@
 
 # production
 /build
+/build1
+/build2
 
 !public/pdf/build
 

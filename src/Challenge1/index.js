@@ -15,8 +15,7 @@ const Challenge = () => {
       <div className="counter">
         <span>Count = {count}</span>
       </div>
-      <Content name="Content A" />
-      <Content name="Content B" style={{ marginTop: 10 }} />
+      <Content name="Content" />
     </div>
   )
 }

@@ -3,6 +3,7 @@ import Content from './Content';
 import AppContext from './AppContext';
 import CounterContext from './CounterContext';
 import AppNameInputField from './AppNameInputField';
+import ComplexComponent from './ComplexComponent';
 
 const Challenge = () => {
   const [count, setCount] = useState(0);
@@ -27,6 +28,7 @@ const Challenge = () => {
           <AppNameInputField defaultValue={appName} onChange={onChangeAppName} />
           <button onClick={onClick}>Increase count</button>
           <Content />
+          <ComplexComponent style={{ width: '100%', position: 'relative', backgroundColor: 'aquamarine', padding: 10 }} />
         </div>
       </CounterContext.Provider>
     </AppContext.Provider>

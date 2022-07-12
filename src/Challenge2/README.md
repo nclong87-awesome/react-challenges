@@ -1,3 +1,4 @@
 - Challenge 1: How to avoid re-render AppNameInputField component when click on Increase count button?
 - Challenge 2: How to avoid re-render AppNameInfo component when click on Increase count button?
 - Challenge 3: How to avoid re-render CountInfo component when changing app name value?
+- Challenge 4: How to avoid re-render ComplexComponent component?
